@@ -1,0 +1,121 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/bg-pattern-top-desktop.svg)no-repeat top left , url(../images/bg-pattern-bottom-desktop.svg)no-repeat bottom right;
+    font-family: "League Spartan", sans-serif;
+}
+
+
+
+main {
+    width: 100%;
+    padding: 8%;
+}
+
+.top {
+    display: flex;
+    gap: 245px;
+}
+.info h1{
+    width: 360px;
+    font-size: 55px;
+    color: var(--primary-dark);
+}
+
+
+.info p {
+    color: var(--neutral-dark);
+    font-size: 17px;
+    margin-top: 30px;
+    width: 400px;
+    line-height: 26px;
+}
+.ratings {
+    display: flex;
+}
+
+ul li {
+    display: flex;
+    margin: 30px 0px;
+    padding: 15px 30px;
+    background-color: var(--neutral-light);
+    width: 410px;
+    border-radius: 10px;
+}
+
+ul li p {
+    align-self: center;
+    color: var(--primary-dark);
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.report-guru {
+    margin-left: 50px;
+}
+
+
+.best-tech {
+    margin-left: 100px;
+}
+
+.comments {
+    display: flex;
+    margin-top: 70px;
+    gap: 30px;
+    color: #ffffff;
+    justify-content: center;
+} 
+
+.comments .colton-comment {
+    background-color: var(--primary-dark);
+    width: 400px;
+    flex: 1;
+    padding: 3%;
+    border-radius: 10px;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.comments .irene-comment {
+    background-color: var(--primary-dark);
+    width: 400px;
+    flex: 1;
+    padding: 3%;
+    border-radius: 10px;
+    line-height: 23px;
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.comments .anne-comment {
+    background-color: var(--primary-dark);
+    width: 400px;
+    flex: 1;
+    padding: 3%;
+    border-radius: 10px;
+    line-height: 23px;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+}
+
+ .profile {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+ }
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.profile p{
+    line-height: 18px;
+}
+.profile p span{
+    color: var(--primary-soft);
+}
